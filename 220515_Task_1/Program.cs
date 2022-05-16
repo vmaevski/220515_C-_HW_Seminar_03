@@ -12,8 +12,16 @@ void Polindrom_1(int num)
     Console.WriteLine(Text);
 }
 
-void 
-
+void Polindrom_2(int num)
+{
+    Console.WriteLine("Sorryan, method 2 in development...");
+}
+Console.WriteLine("Method 1:");
 Polindrom_1(12412);
 Polindrom_1(23432);
 Polindrom_1(12821);
+
+Console.WriteLine("Method 2:");
+Polindrom_2(12412);
+Polindrom_2(23432);
+Polindrom_2(12821);
