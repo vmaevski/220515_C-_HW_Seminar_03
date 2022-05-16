@@ -3,11 +3,11 @@
 
 void Polindrom_1(int num)
 {
-    string Text = ($"NO. The number {num} is not a Polydrom.");
+    string Text = ($"NO. The number {num} is not a Polyndrom.");
     string str = num.ToString();
     if (str[0] == str[4] && str[1] == str[3])
     {
-        Text = ($"Yes. The number {num} is the Polydrome.");
+        Text = ($"Yes. The number {num} is the Polyndrome.");
     }
     Console.WriteLine(Text);
 }
