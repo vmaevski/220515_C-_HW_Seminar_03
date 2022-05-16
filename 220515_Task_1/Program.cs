@@ -14,7 +14,12 @@ void Polindrom_1(int num)
 
 void Polindrom_2(int num)
 {
-    Console.WriteLine("Sorryan, method 2 in development...");
+    string Text = ($"NO. The number {num} is not a Polyndrom.");
+    if (num / 10000 == num % 10 && (num / 1000) % 10 == (num % 100) / 10)
+    {
+        Text = ($"Yes. The number {num} is the Polyndrome.");
+    }
+    Console.WriteLine(Text);
 }
 Console.WriteLine("Method 1:");
 Polindrom_1(12412);
